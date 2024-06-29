@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            
+            width: 100%;
+            border-collapse:collapse;
+           table-layout: fixed;
+
+        }
+        th, td{
+            border: 1px solid black;
+            text-align:center;
+            padding: 10px;
+            
+
+        }
+
+.header1{background-color:#84c1ff;}
+.header2{background-color:#a5ff84;}
+.header3{background-color:#ffd384;}
+.header4{background-color: #ff84ff;}
+.header5{background-color: #8484ff;}
+.header6{background-color: #6ad4e7;}
+
+.time-period{
+background-color: #d3d3d3;
+color: white;
+}
+
+.txt-orange{
+color: orange;
+}
+.txt-blue{
+    color:aqua;
+}
+.txt-green{
+    color:darkgreen;
+}
+    </style>
+</head>
+<body>
+    <h1 align="center">Time Table</h1>
+    <table>
+        <tr>
+            <th class="time-period">Time/period</th>
+            <th class="header1">8:30-9:30</th>
+            <th class="header2">9:30-10:30</th>
+            <th class="header3">10:30-11:30</th>
+            <th class="header4">11:30-12:30</th>
+            <th class="header5">12:30-1:30</th>
+            <th class="header6">1:30-2:30</th>
+        </tr>
+        <tr>
+            
+            <td class="time-period"> BCA 2nd sem</td>
+            <td class="txt-orange">ENG</td>
+            <td class="txt-orange">LIBRARY</td>
+            <td class="txt-orange">BREAK</td>
+            <td class="txt-orange">C++</td>
+            <td class="txt-orange">LAB</td>
+            <td class="txt-orange">LAB 2</td>
+       
+        </tr>
+        <tr>
+            <td class="time-period">BCA 4th Sem</td>
+            <td class="txt-blue">ORACLE</td>
+            <td class="txt-blue">PYTHON</td>
+            <td class="txt-blue">CN</td>
+            <td class="txt-blue">BREAK</td>
+            <td class="txt-blue">DBS</td>
+            <td class="txt-blue">JAVA</td>
+        </tr>
+        <tr>
+            <td class="time-period">BBA 4th Sem</td>
+            <td class="txt-green">FM</td>
+            <td class="txt-green">MM</td>
+            <td class="txt-green">PM</td>
+            <td class="txt-green">BEE</td>
+            <td class="txt-green">BREAK</td>
+            <td class="txt-green">LAB</td>
+        </tr>
+    </table>
+</body>
+</html>
